@@ -17,8 +17,8 @@ CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 URL = "https://api.openweathermap.org/data/2.5/forecast"
 
 parameters = {
-    "lat": 22.769129,
-    "lon": 86.214905,
+    "lat": 17.537890,
+    "lon": 80.629628,
     "appid": API_KEY,
     "cnt": 4
 }
