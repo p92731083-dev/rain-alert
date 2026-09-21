@@ -3,8 +3,7 @@ name: Rain Alert
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: "30 1 * * *"
+
 jobs:
   rain-alert:
     runs-on: ubuntu-latest
